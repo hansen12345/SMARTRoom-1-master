@@ -1,0 +1,46 @@
+{
+    "rooms": {
+        "room1": {
+            "roomNumber": "Engineering/Geoscience 123",
+            "lamp": "on",
+            "tv": "on",
+            "roomLight": "on",
+            "acUnit": "75"
+        },
+        "room2": {
+            "roomNumber": "Engineering/Geoscience 456",
+            "lamp": "on",
+            "tv": "on",
+            "roomLight": "on",
+            "acUnit": "67"
+        },
+        "room3": {
+            "roomNumber": "Engineering/Geoscience 789",
+            "lamp": "on",
+            "tv": "on",
+            "roomLight": "on",
+            "acUnit": "66"
+        },
+        "room4": {
+            "roomNumber": "Engineering/Geoscience 001",
+            "lamp": "on",
+            "tv": "on",
+            "roomLight": "on",
+            "acUnit": "72"
+        },
+        "room5": {
+            "roomNumber": "Engineering/Geoscience 002",
+            "lamp": "on",
+            "tv": "on",
+            "roomLight": "on",
+            "acUnit": "56"
+        },
+        "room6": {
+            "roomNumber": "Engineering/Geoscience 003",
+            "lamp": "on",
+            "tv": "on",
+            "roomLight": "on",
+            "acUnit": "59"
+        }
+    }
+}
