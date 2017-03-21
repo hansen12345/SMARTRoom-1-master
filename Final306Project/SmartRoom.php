@@ -1,5 +1,5 @@
 <?php
-    $host = "smartroom.czjl1dned5qh.us-west-2.rds.amazonaws.com";
+    $host = "SMARTRoom.czjl1dned5qh.us-west-2.rds.amazonaws.com";
     $db = "SMARTRoom";
     $user = "front5";
     $pass = "fronttoback";

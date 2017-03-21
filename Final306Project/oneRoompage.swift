@@ -33,9 +33,9 @@ class oneRoompage: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
         ACUnit.selectRow(21, inComponent: 0, animated: true)
         
         if (lampSwitch.isOn) {
-            roomsArray[intPassed][1] = "on"
+            roomsArray[intPassed][1] = "ON"
         } else {
-            roomsArray[intPassed][1] = "off"
+            roomsArray[intPassed][1] = "OFF"
         }
         if (tvSwitch.isOn) {
             roomsArray[intPassed][2] = "on"
@@ -54,6 +54,31 @@ class oneRoompage: UIViewController, UIPickerViewDelegate, UIPickerViewDataSourc
     }
     
     @IBAction func submitDataButton(_ sender: Any) {
+        func PostItems() {
+            let url =  "http://192.168.99.34/Register.php"
+            let myUrl = NSURL(string: url)
+            var request = URLRequest(url:myUrl! as URL)
+            request.httpMethod = "POST"
+            let session = URLSession.shared
+            
+            let dataTask = session.dataTask(with: request as URLRequest) {data,response,error in
+                let httpResponse = response as? HTTPURLResponse
+                
+                if (error != nil) {
+                    print(error )
+                } else {
+                    print(httpResponse)
+                }
+                
+                DispatchQueue.main.async {
+                    //Update your UI here
+                }
+                
+            }
+            dataTask.resume()
+        }
+        PostItems()
+
         let documentsDirectoryPathString = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
         let documentsDirectoryPath = NSURL(string: documentsDirectoryPathString)!
         

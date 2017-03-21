@@ -24,7 +24,9 @@ class RoomPage: UITableViewController {
         //DATA TEST
         roomInt = 1
         
+        PostItems()
         parseJSON()
+        
         
         //DATA TEST
         let myVC = storyboard?.instantiateViewController(withIdentifier: "oneRoompage") as! oneRoompage
@@ -49,6 +51,30 @@ class RoomPage: UITableViewController {
         }
         
     }
+    func PostItems() {
+        let url =  "http://192.168.99.34/Register.php"
+        let myUrl = NSURL(string: url)
+        var request = URLRequest(url:myUrl! as URL)
+        request.httpMethod = "POST"
+        let session = URLSession.shared
+        
+        let dataTask = session.dataTask(with: request as URLRequest) {data,response,error in
+            let httpResponse = response as? HTTPURLResponse
+            
+            if (error != nil) {
+                print(error )
+            } else {
+                print(httpResponse)
+            }
+            
+            DispatchQueue.main.async {
+                //Update your UI here
+            }
+            
+        }
+        dataTask.resume()
+    }
+
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         

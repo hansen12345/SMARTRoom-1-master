@@ -11,7 +11,6 @@
 		41010AB61E2FEA32008CD9F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41010AB51E2FEA32008CD9F0 /* ViewController.swift */; };
 		41010AB91E2FEA32008CD9F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41010AB71E2FEA32008CD9F0 /* Main.storyboard */; };
 		41010ABB1E2FEA33008CD9F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41010ABA1E2FEA33008CD9F0 /* Assets.xcassets */; };
-		41010ABE1E2FEA33008CD9F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41010ABC1E2FEA33008CD9F0 /* LaunchScreen.storyboard */; };
 		41010AC91E2FEA33008CD9F0 /* Final306ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41010AC81E2FEA33008CD9F0 /* Final306ProjectTests.swift */; };
 		41010AD41E2FEA33008CD9F0 /* Final306ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41010AD31E2FEA33008CD9F0 /* Final306ProjectUITests.swift */; };
 		416010F21E2FF4850064F9C6 /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416010F11E2FF4850064F9C6 /* MainPageView.swift */; };
@@ -22,9 +21,17 @@
 		41606B681E41AED800B823C9 /* oneRoompage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41606B671E41AED800B823C9 /* oneRoompage.swift */; };
 		41606B721E491E3000B823C9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 41606B711E491E3000B823C9 /* logo.png */; };
 		EE62EBBD1B9AFC8103AEBC0A /* Pods_Final306Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8D67D80F8ECC382D3F29E /* Pods_Final306Project.framework */; };
+		FA0C04241E672A5800D9A890 /* 100x75.png in Resources */ = {isa = PBXBuildFile; fileRef = FA0C04231E672A5800D9A890 /* 100x75.png */; };
 		FA44E8561E6665960044153D /* SmartRoom.php in Resources */ = {isa = PBXBuildFile; fileRef = FA44E8551E6665960044153D /* SmartRoom.php */; };
 		FA44E8581E6671770044153D /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA44E8571E6671770044153D /* register.swift */; };
 		FA44E85A1E6671890044153D /* Register.php in Resources */ = {isa = PBXBuildFile; fileRef = FA44E8591E6671890044153D /* Register.php */; };
+		FA4B509C1E66922A00544CAC /* gif_final_small.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA4B509B1E66922A00544CAC /* gif_final_small.gif */; };
+		FA4B509E1E66923200544CAC /* rsz_green_final.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4B509D1E66923200544CAC /* rsz_green_final.png */; };
+		FA4B50A01E66925100544CAC /* splash screen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA4B509F1E66925100544CAC /* splash screen.jpg */; };
+		FA4B50A21E66980200544CAC /* Screen Shot 2017-03-01 at 12.47.25 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4B50A11E66980200544CAC /* Screen Shot 2017-03-01 at 12.47.25 AM.png */; };
+		FA4B50A41E669F7000544CAC /* Screen Shot 2017-03-01 at 1.18.46 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4B50A31E669F7000544CAC /* Screen Shot 2017-03-01 at 1.18.46 AM.png */; };
+		FA4B50A61E669F9200544CAC /* Screen Shot 2017-03-01 at 1.18.19 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = FA4B50A51E669F9200544CAC /* Screen Shot 2017-03-01 at 1.18.19 AM.png */; };
+		FA4B50A81E67238E00544CAC /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA4B50A71E67238E00544CAC /* Launch.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +57,6 @@
 		41010AB51E2FEA32008CD9F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41010AB81E2FEA32008CD9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41010ABA1E2FEA33008CD9F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		41010ABD1E2FEA33008CD9F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41010ABF1E2FEA33008CD9F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41010AC41E2FEA33008CD9F0 /* Final306ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Final306ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41010AC81E2FEA33008CD9F0 /* Final306ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final306ProjectTests.swift; sourceTree = "<group>"; };
@@ -62,15 +68,23 @@
 		416010F91E3141EA0064F9C6 /* Roompage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roompage.swift; sourceTree = "<group>"; };
 		41606B5C1E4185A300B823C9 /* loginUser.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loginUser.json; sourceTree = "<group>"; };
 		41606B5E1E4186D300B823C9 /* dataRoom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataRoom.json; sourceTree = "<group>"; };
-		41606B651E418E1C00B823C9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		41606B651E418E1C00B823C9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41606B671E41AED800B823C9 /* oneRoompage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneRoompage.swift; sourceTree = "<group>"; };
 		41606B711E491E3000B823C9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		534F8FC0A8F31A759307D22D /* Pods-Final306Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final306Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-Final306Project/Pods-Final306Project.release.xcconfig"; sourceTree = "<group>"; };
 		A6D8D67D80F8ECC382D3F29E /* Pods_Final306Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final306Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A940E54A3F708FE1D917DF36 /* Pods-Final306Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final306Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Final306Project/Pods-Final306Project.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0C04231E672A5800D9A890 /* 100x75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 100x75.png; path = ../../100x75.png; sourceTree = "<group>"; };
 		FA44E8551E6665960044153D /* SmartRoom.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = SmartRoom.php; sourceTree = "<group>"; };
 		FA44E8571E6671770044153D /* register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
 		FA44E8591E6671890044153D /* Register.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = Register.php; sourceTree = "<group>"; };
+		FA4B509B1E66922A00544CAC /* gif_final_small.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = gif_final_small.gif; path = ../../gif_final_small.gif; sourceTree = "<group>"; };
+		FA4B509D1E66923200544CAC /* rsz_green_final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rsz_green_final.png; path = ../../rsz_green_final.png; sourceTree = "<group>"; };
+		FA4B509F1E66925100544CAC /* splash screen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "splash screen.jpg"; path = "../../splash screen.jpg"; sourceTree = "<group>"; };
+		FA4B50A11E66980200544CAC /* Screen Shot 2017-03-01 at 12.47.25 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-03-01 at 12.47.25 AM.png"; path = "../../../Desktop/Screen Shot 2017-03-01 at 12.47.25 AM.png"; sourceTree = "<group>"; };
+		FA4B50A31E669F7000544CAC /* Screen Shot 2017-03-01 at 1.18.46 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-03-01 at 1.18.46 AM.png"; path = "../../../Desktop/Screen Shot 2017-03-01 at 1.18.46 AM.png"; sourceTree = "<group>"; };
+		FA4B50A51E669F9200544CAC /* Screen Shot 2017-03-01 at 1.18.19 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2017-03-01 at 1.18.19 AM.png"; path = "../../../Desktop/Screen Shot 2017-03-01 at 1.18.19 AM.png"; sourceTree = "<group>"; };
+		FA4B50A71E67238E00544CAC /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +140,13 @@
 			isa = PBXGroup;
 			children = (
 				41606B711E491E3000B823C9 /* logo.png */,
+				FA4B50A11E66980200544CAC /* Screen Shot 2017-03-01 at 12.47.25 AM.png */,
+				FA0C04231E672A5800D9A890 /* 100x75.png */,
+				FA4B50A51E669F9200544CAC /* Screen Shot 2017-03-01 at 1.18.19 AM.png */,
+				FA4B50A31E669F7000544CAC /* Screen Shot 2017-03-01 at 1.18.46 AM.png */,
+				FA4B509D1E66923200544CAC /* rsz_green_final.png */,
+				FA4B509F1E66925100544CAC /* splash screen.jpg */,
+				FA4B509B1E66922A00544CAC /* gif_final_small.gif */,
 				41010AB31E2FEA32008CD9F0 /* AppDelegate.swift */,
 				41010AB51E2FEA32008CD9F0 /* ViewController.swift */,
 				41010AB71E2FEA32008CD9F0 /* Main.storyboard */,
@@ -135,11 +156,11 @@
 				41606B5C1E4185A300B823C9 /* loginUser.json */,
 				41606B5E1E4186D300B823C9 /* dataRoom.json */,
 				41010ABA1E2FEA33008CD9F0 /* Assets.xcassets */,
-				41010ABC1E2FEA33008CD9F0 /* LaunchScreen.storyboard */,
 				41010ABF1E2FEA33008CD9F0 /* Info.plist */,
 				FA44E8551E6665960044153D /* SmartRoom.php */,
 				FA44E8571E6671770044153D /* register.swift */,
 				FA44E8591E6671890044153D /* Register.php */,
+				FA4B50A71E67238E00544CAC /* Launch.storyboard */,
 			);
 			path = Final306Project;
 			sourceTree = "<group>";
@@ -293,14 +314,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA4B50A61E669F9200544CAC /* Screen Shot 2017-03-01 at 1.18.19 AM.png in Resources */,
+				FA4B509E1E66923200544CAC /* rsz_green_final.png in Resources */,
+				FA0C04241E672A5800D9A890 /* 100x75.png in Resources */,
 				41606B721E491E3000B823C9 /* logo.png in Resources */,
 				41606B661E418E1C00B823C9 /* Podfile in Resources */,
+				FA4B50A01E66925100544CAC /* splash screen.jpg in Resources */,
+				FA4B509C1E66922A00544CAC /* gif_final_small.gif in Resources */,
 				41606B5F1E4186D300B823C9 /* dataRoom.json in Resources */,
-				41010ABE1E2FEA33008CD9F0 /* LaunchScreen.storyboard in Resources */,
 				41010ABB1E2FEA33008CD9F0 /* Assets.xcassets in Resources */,
 				41606B5D1E4185A300B823C9 /* loginUser.json in Resources */,
 				FA44E85A1E6671890044153D /* Register.php in Resources */,
+				FA4B50A21E66980200544CAC /* Screen Shot 2017-03-01 at 12.47.25 AM.png in Resources */,
+				FA4B50A81E67238E00544CAC /* Launch.storyboard in Resources */,
 				41010AB91E2FEA32008CD9F0 /* Main.storyboard in Resources */,
+				FA4B50A41E669F7000544CAC /* Screen Shot 2017-03-01 at 1.18.46 AM.png in Resources */,
 				FA44E8561E6665960044153D /* SmartRoom.php in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,14 +451,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		41010ABC1E2FEA33008CD9F0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41010ABD1E2FEA33008CD9F0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -530,13 +550,15 @@
 			baseConfigurationReference = A940E54A3F708FE1D917DF36 /* Pods-Final306Project.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				DEVELOPMENT_TEAM = FVWAD94GR4;
 				INFOPLIST_FILE = Final306Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PNGapps.Final306Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -545,13 +567,15 @@
 			baseConfigurationReference = 534F8FC0A8F31A759307D22D /* Pods-Final306Project.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				DEVELOPMENT_TEAM = FVWAD94GR4;
 				INFOPLIST_FILE = Final306Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PNGapps.Final306Project;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
